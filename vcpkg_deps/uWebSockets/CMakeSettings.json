@@ -10,8 +10,7 @@
             "cmakeCommandArgs": "",
             "buildCommandArgs": "-v",
             "ctestCommandArgs": "",
-            "inheritEnvironments": [ "msvc_x64_x64" ],
-            "cmakeToolchain": "vcpkg/scripts/buildsystems/vcpkg.cmake"
+            "inheritEnvironments": [ "msvc_x64_x64" ]
         },
         {
             "name": "x64-Release",
@@ -23,8 +22,7 @@
             "cmakeCommandArgs": "",
             "buildCommandArgs": "-v",
             "ctestCommandArgs": "",
-            "inheritEnvironments": [ "msvc_x64_x64" ],
-            "cmakeToolchain": "vcpkg/scripts/buildsystems/vcpkg.cmake"
+            "inheritEnvironments": [ "msvc_x64_x64" ]
         },
         {
             "name": "x86-Debug",
@@ -36,8 +34,7 @@
             "cmakeCommandArgs": "",
             "buildCommandArgs": "-v",
             "ctestCommandArgs": "",
-            "inheritEnvironments": [ "msvc_x86" ],
-            "cmakeToolchain": "vcpkg/scripts/buildsystems/vcpkg.cmake"
+            "inheritEnvironments": [ "msvc_x86" ]
         },
         {
             "name": "x86-Release",
@@ -49,8 +46,7 @@
             "cmakeCommandArgs": "",
             "buildCommandArgs": "-v",
             "ctestCommandArgs": "",
-            "inheritEnvironments": [ "msvc_x86" ],
-            "cmakeToolchain": "vcpkg/scripts/buildsystems/vcpkg.cmake"
+            "inheritEnvironments": [ "msvc_x86" ]
         },
         {
             "name": "x64-Clang-Debug",
@@ -61,8 +57,7 @@
             "cmakeCommandArgs": "",
             "buildCommandArgs": "-v",
             "ctestCommandArgs": "",
-            "inheritEnvironments": [ "clang_cl_x64_x64" ],
-            "cmakeToolchain": "vcpkg/scripts/buildsystems/vcpkg.cmake"
+            "inheritEnvironments": [ "clang_cl_x64_x64" ]
         },
         {
             "name": "x64-Clang-Release",
@@ -73,8 +68,7 @@
             "cmakeCommandArgs": "",
             "buildCommandArgs": "-v",
             "ctestCommandArgs": "",
-            "inheritEnvironments": [ "clang_cl_x64_x64" ],
-            "cmakeToolchain": "vcpkg/scripts/buildsystems/vcpkg.cmake"
+            "inheritEnvironments": [ "clang_cl_x64_x64" ]
         },
         {
             "name": "x86-Clang-Debug",
@@ -85,8 +79,7 @@
             "cmakeCommandArgs": "",
             "buildCommandArgs": "-v",
             "ctestCommandArgs": "",
-            "inheritEnvironments": [ "clang_cl_x86" ],
-            "cmakeToolchain": "vcpkg/scripts/buildsystems/vcpkg.cmake"
+            "inheritEnvironments": [ "clang_cl_x86" ]
         },
         {
             "name": "x86-Clang-Release",
@@ -97,8 +90,7 @@
             "cmakeCommandArgs": "",
             "buildCommandArgs": "-v",
             "ctestCommandArgs": "",
-            "inheritEnvironments": [ "clang_cl_x86" ],
-            "cmakeToolchain": "vcpkg/scripts/buildsystems/vcpkg.cmake"
+            "inheritEnvironments": [ "clang_cl_x86" ]
         },
         {
             "name": "WSL-GCC-Debug-x64",
@@ -111,7 +103,6 @@
             "buildCommandArgs": "-v",
             "ctestCommandArgs": "",
             "inheritEnvironments": [ "linux_x64" ],
-            "cmakeToolchain": "vcpkg/scripts/buildsystems/vcpkg.cmake",
             "wslPath": "${defaultWSLPath}"
         },
         {
@@ -125,7 +116,6 @@
             "buildCommandArgs": "-v",
             "ctestCommandArgs": "",
             "inheritEnvironments": [ "linux_x64" ],
-            "cmakeToolchain": "vcpkg/scripts/buildsystems/vcpkg.cmake",
             "wslPath": "${defaultWSLPath}"
         },
         {
@@ -139,7 +129,6 @@
             "buildCommandArgs": "-v",
             "ctestCommandArgs": "",
             "inheritEnvironments": [ "linux_x86" ],
-            "cmakeToolchain": "vcpkg/scripts/buildsystems/vcpkg.cmake",
             "wslPath": "${defaultWSLPath}"
         },
         {
@@ -153,7 +142,6 @@
             "buildCommandArgs": "-v",
             "ctestCommandArgs": "",
             "inheritEnvironments": [ "linux_x86" ],
-            "cmakeToolchain": "vcpkg/scripts/buildsystems/vcpkg.cmake",
             "wslPath": "${defaultWSLPath}"
         },
         {
@@ -167,7 +155,6 @@
             "buildCommandArgs": "-v",
             "ctestCommandArgs": "",
             "inheritEnvironments": [ "linux_clang_x64" ],
-            "cmakeToolchain": "vcpkg/scripts/buildsystems/vcpkg.cmake",
             "wslPath": "${defaultWSLPath}"
         },
         {
@@ -181,7 +168,6 @@
             "buildCommandArgs": "-v",
             "ctestCommandArgs": "",
             "inheritEnvironments": [ "linux_clang_x64" ],
-            "cmakeToolchain": "vcpkg/scripts/buildsystems/vcpkg.cmake",
             "wslPath": "${defaultWSLPath}"
         }
     ]
