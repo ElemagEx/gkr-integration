@@ -36,5 +36,5 @@ message(STATUS "uWebSockets link libs  : ${UWEBSOCKETS_LINK_LIBRARIES}")
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/bin")
 
-add_executable(uws_test main.cpp)
-target_link_libraries(uws_test uWebSockets)
+add_executable(uws_build_test main.cpp)
+target_link_libraries(uws_build_test PRIVATE uWebSockets)
