@@ -1,3 +1,5 @@
-# uws-integration
-Cross-platform `CMake` integration of [µWebSockets](https://github.com/uNetworking/uWebSockets) with MS Visual Studio and `vcpkg` as sub-module.
->NOTE: Not including `OpenSSL` yet.
+# gkr-integration
+Assists for third party libraries integration
+
+## vcpkg integrated libraries
+- [µWebSockets](https://github.com/uNetworking/uWebSockets)
