@@ -4,3 +4,8 @@
 # except Windows-only files
 *.cmd    text eol=crlf
 *.natvis text eol=crlf
+
+# and binary files
+*.lib binary
+*.so  binary
+*.a   binary
