@@ -1,4 +1,4 @@
-#include <nvEncodeAPI_.h>
+#include <nvEncodeAPIx.h>
 
 int main()
 {
