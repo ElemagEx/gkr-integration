@@ -15,4 +15,4 @@ sudo ./bootstrap.sh [tag]
 
 > NOTE: If the optional argument is provided it must specifies a valid Catch2 repository tag. Otherwise `v3.4.0` tag is used.
 
-Build and run project to ensure the Catch2 package is properly installed.
+Build and run `catch_build_test` executable to ensure the Catch2 package is properly installed.

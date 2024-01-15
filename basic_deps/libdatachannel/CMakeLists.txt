@@ -1,6 +1,6 @@
 find_package(libdatachannel REQUIRED)
 
-add_executable(ldc_build_test main.cpp)
+add_executable(ldc_build_test libdatachannel_main.cpp)
 target_link_libraries(ldc_build_test PRIVATE LibDataChannel::LibDataChannel)
 
 add_custom_command(

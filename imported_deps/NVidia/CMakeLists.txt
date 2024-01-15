@@ -10,5 +10,5 @@ status(FATAL_ERROR "Not implemented yet")
 endif()
 target_include_directories(nvEncodeAPI INTERFACE "Interface")
 
-add_executable(nvEncoderTest encoderMain.cpp)
+add_executable(nvEncoderTest nv_encoder_main.cpp)
 target_link_libraries(nvEncoderTest nvEncodeAPI)

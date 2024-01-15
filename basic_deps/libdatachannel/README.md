@@ -15,4 +15,4 @@ sudo ./bootstrap.sh [tag]
 
 > NOTE: If the optional argument is provided it must specifies a valid libDataChannel repository tag. Otherwise `v0.19.5` tag is used.
 
-Build and run project to ensure the libDataChannel package is properly installed.
+Build and run `ldc_build_test` executable to ensure the libDataChannel package is properly installed.
